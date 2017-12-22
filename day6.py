@@ -30,7 +30,7 @@ while not complete:
     arrayOfPrevious.append(intArray[:])
 
 indices = [i for i, x in enumerate(arrayOfPrevious) if x == intArray]
-print indices
+print "%s between repeat" % (indices[1] - indices[0])
 print "%s current " %intArray
 print ("%s max " %max(inputArray))
-print ("%s cycles" % cycles)
+print ("%s total cycles" % cycles)
